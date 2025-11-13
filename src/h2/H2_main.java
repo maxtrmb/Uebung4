@@ -4,7 +4,7 @@ public class H2_main {
     public static void main(String[] args) {
     	
         boolean x, y, a, b, c;
-        int input = 10;
+        int input = 0;
 
         if (input == 10 || input == 11) {
         	
@@ -36,12 +36,12 @@ public class H2_main {
         a = (E1 && E2);
         b = (E1 || E3);
 
-        if (x && y) {
+        if (x==true && y==true) {
         	
             c = false;
         }
         
-        if(!x && y) {
+        if(x==false && y==true) {
         	
         	c = false;
         	
